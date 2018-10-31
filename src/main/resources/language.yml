@@ -1,0 +1,28 @@
+# Config File
+
+# The plugin's prefix for messages.
+prefix: '&9[&bTheBackup&9] &7'
+
+# The reason of the kick when a backup is restored.
+kick: '&9[&bTheBackup&9]\n&cA backup is being restored.\nServer is shut down for security.'
+
+# The message when an automatic backup started.
+started: 'Automatic backup is starting...'
+
+# The message when an automatic backup ended.
+ended: 'Automatic backup ended successfully.'
+
+# The message when an automatic backup failed.
+failed: '&cAutomatic backup failed! Used fallback solution.'
+
+# The message when a manual backup started.
+manualstart: 'A backup is being created, please wait...'
+
+# The message when a manual backup ended.
+manualend: 'Backup ended successfully.'
+
+# The message when a manual backup failed.
+manualfail: '&cError while creating backup! Used fallback solution.'
+
+# The message when a player doesn't have permission to use a command.
+permission: '&cSorry, you do not have the permission to use this.'

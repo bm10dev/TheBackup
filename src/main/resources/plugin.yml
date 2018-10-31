@@ -1,0 +1,19 @@
+name: TheBackup
+version: ${project.version}
+main: bm10.ch.thebackup.TheBackup
+commands:
+  backup:
+    description: Creates a backup.
+    aliases: [pbackup]
+  restore:
+    description: Restores a backup.
+    aliases: [prestore]
+  backups:
+    description: Lists all local backups.
+    aliases: [pbackups]
+  delbackup:
+    description: Deletes a backup.
+    aliases: [rembackup, pdelbackup, prembackup]
+  testftp:
+    description: Tests the FTP connection.
+    aliases: [ptestftp, ptest]
